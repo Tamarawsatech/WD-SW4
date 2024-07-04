@@ -1,0 +1,80 @@
+.bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.middle-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.middle-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.middle-text h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.middle-text p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.button-container {
+  margin-top: 1rem;
+}
+
+.feature1btn, .feature2btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.feature1btn:hover, .feature2btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.feature-preview {
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.img-placeholder-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.feature1, .feature2 {
+  width: 500px;
+  height: 500px;
+  margin: 0 0.5rem;
+  border: 2px solid white;
+  transition: border-color 0.3s;
+}
+
+.feature1:hover, .feature2:hover {
+  border-color: #ddd;
+}
